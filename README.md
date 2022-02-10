@@ -10,3 +10,20 @@
 |4|3_IMPLEMENTATION| SOURCE CODE|
 |5|4_TESTPLAN AND OUTPUT|HIGH LEVEL AND LOW LEVEL TEST PLANS|
 |6|5_IMAGES AND VIDEOS|COMPILATION OUTPUT OF THE SOURCE CODE|
+_____________________
+## Contributors List and Summary
+
+PS NO. |  NAME  |    FEATURES    |
+-------|---------|----------------|
+99007631| ABISHEK G  | INTERNET BANKING SYSTEM
+     
+
+## Challenges Faced and How Was It Overcome
+
+1. Applying FILES concept was quite challenging.
+
+
+## Learning Resources
+1. ADV. LEARNING  reference videos.
+2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
+3. [github workflow](https://docs.github.com/en/actions/learn-github-action)
