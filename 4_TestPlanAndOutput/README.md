@@ -3,8 +3,8 @@
 ___ 
 |Test Id  | Description |Exp I/P  |Exp O/P  |Act O/P  |Test Type  |
 |--|--|--|--|--|--|
-| HLR1 |Registration of new account|Account number:123456 Phone no:8072334574 Password: 12345|User Registration Successfull|User Registration Successfull|Requirement based|
-|HLR2|Existing user|Phone no:8072334574 Password:12345|Welcome 123456|Welcome 123456|Requirement based|
+| HLR1 |Registration of new account|Account number:123456 ,Phone no:8072334574 ,Password: 12345|User Registration Successfull|User Registration Successfull|Requirement based|
+|HLR2|Existing user|Phone no:8072334574 ,Password:12345|Welcome 123456|Welcome 123456|Requirement based|
 |HLR3|Deposit Cash|Enter Deposit Amount:5000|Deposited Successfully|Deposited Successfully|Requirement Baesd|
 |HLR4|Withdraw cash|Enter Amount: 2000|You have withdrawn: 2000|You have withdrawn :2000|Requirement Based|
 |HLR5|Balance check|Enter your option: 1|your current balance is :3000|your current balance is :3000|Requirement Based|
