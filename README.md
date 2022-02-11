@@ -34,6 +34,6 @@ PS NO. |  NAME  |    FEATURES    |
 1. ADVLEARNINGS .
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [github workflow](https://docs.github.com/en/actions/learn-github-action)
-## THIS PROJECT IS LEARNT AND DEVELOPED FROM [code with c website](https://www.codewithc.com/mini-project-in-c-bank-management-system/#google_vignette)
+## THIS CODE OF THIS PROJECT IS LEARNT AND DEVELOPED FROM [code with c website](https://www.codewithc.com/mini-project-in-c-bank-management-system/#google_vignette)
 ## REFFERED FROM ADVLEARNINGS 
 ____________________
