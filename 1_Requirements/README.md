@@ -7,9 +7,11 @@ _________________________________________________________
 Internet-Banking Application 
 - In this project user can do all the banking activites like real bank. this file contains the requirements of the user and collection of analysis.
 
-SWOT ANALYSIS
--
+# SWOT ANALYSIS
 _________________________________________________________
+![enter image description here](https://www.linkpicture.com/q/DATAFLOW-1.png)
+
+
 **Strength**-- User can perform the following activities:
 
 - Balance enquiry
@@ -24,9 +26,11 @@ _________________________________________________________
 
 **Threats**-- If Password is lost User will loose the account
 
-4W's and 1H
--
+# 4W's and 1H
+
 __________________________________________________________
+![enter image description here](https://www.linkpicture.com/q/DATAFLOW-2.png)
+
 ### Who:
 __________________________________________________________
 **All the banking customers can use the Internet Banking system who wants to do the banking activities Remotely.**
