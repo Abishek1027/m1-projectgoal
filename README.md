@@ -1,5 +1,12 @@
 # INTERNET BANKING SYSTEM
 - **In this project user can do all the banking activites like real bank. this file contains the requirements of the user and collection of analysis.**
+## This application can Do Following Activities
+- Account Registration
+- Account Login
+- Deposit Cash
+- Withdraw Cash
+- Show Reward Points
+- Change Passcode
 
 ## FOLDER CONTENTS:
 | S.NO |TITLE|DESCRIPTION
@@ -24,6 +31,7 @@ PS NO. |  NAME  |    FEATURES    |
 
 
 ## Learning Resources
-1. ADV. LEARNING  reference videos.
+1. ADVLEARNINGS .
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [github workflow](https://docs.github.com/en/actions/learn-github-action)
+## THIS PROJECT IS LEARNT AND DEVELOPED FROM ADVLEARNINGS WEBSITE
