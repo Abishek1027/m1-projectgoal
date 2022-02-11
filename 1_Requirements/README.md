@@ -10,15 +10,16 @@ Internet-Banking Application
 # SWOT ANALYSIS
 _________________________________________________________
 
-![enter image description here](https://www.linkpicture.com/q/DATAFLOW-4_1.png)
-
+![enter image description here](https://www.linkpicture.com/q/DATAFLOW-5.png)
 
 **Strength**-- User can perform the following activities:
 
 - Balance enquiry
 - Deposit cash
 - Cash withdrawal
-- Online transfer 
+- Online transfer
+- Earn Reward Points
+- Show Reward Points 
 - Password change
 
 **Weakness**-- User Need correct password to further activity.
@@ -60,6 +61,7 @@ __________________________________________________________
 | HLR3|User can wiothdraw cash|Implemented|
 | HLR4|User can transfer cash|Implemented|
 | HLR5|User can change Password|Implemented|
+|HLR6|user can View their Reward Points|Implemented|
 
 #### Low level requirements:
 __________________________________________________________
