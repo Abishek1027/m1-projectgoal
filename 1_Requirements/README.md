@@ -9,7 +9,8 @@ Internet-Banking Application
 
 # SWOT ANALYSIS
 _________________________________________________________
-![enter image description here](https://www.linkpicture.com/q/DATAFLOW-1.png)
+
+![enter image description here](https://www.linkpicture.com/q/DATAFLOW-4_1.png)
 
 
 **Strength**-- User can perform the following activities:
