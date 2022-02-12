@@ -94,4 +94,18 @@ __________________________________________________________
 ##  Activity Diagram
 
 ![enter image description here](https://www.linkpicture.com/q/Untitled-Workspace-4.png)
+﻿# HIGH LEVEL DIAGRAM
+### ARCHITECTURE DIAGRAM
+___________________
+
+![enter image description here](https://www.linkpicture.com/q/Untitled-Workspace-5.png)
+
+# LOW LEVEL DIAGRAM
+### DATA FLOW DIAGRAM
+______________________
+
+![enter image description here](https://www.linkpicture.com/q/DATAFLOW-7.png)
+______________
+# SOURCE CODE
+[MAIN.c](https://github.com/Abishek1027/m1-projectgoal-utility/blob/main/3_Implementation/Implementation_main_c.c)
 
