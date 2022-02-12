@@ -1,0 +1,19 @@
+name: Linux C/C++ CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: build
+      run: gcc Implementation_main_c.c -o Implementation_main_c.exe
+    - name: Run
+      run: ./Implementation_main_c.exe
