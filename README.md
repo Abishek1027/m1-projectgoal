@@ -1,3 +1,7 @@
+<a href="https://app.codiga.io/public/user/github/Abishek1027">
+   <img src="https://api.codiga.io/public/badge/user/github/Abishek1027?style=light" alt="codiga badge" />
+</a>
+
 # INTERNET BANKING SYSTEM
 - **In this project user can do all the banking activites like real bank. this file contains the requirements of the user and collection of analysis.**
 ## This application can Do Following Activities
