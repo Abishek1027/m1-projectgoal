@@ -41,6 +41,3 @@ PS NO. |  NAME  |    FEATURES    |
 ## THE CODE OF THIS PROJECT IS LEARNT AND DEVELOPED FROM [code with c website](https://www.codewithc.com/mini-project-in-c-bank-management-system/#google_vignette)
 ## REFFERED FROM ADVLEARNINGS 
 ____________________
-<a href="https://app.codiga.io/public/user/github/Abishek1027">
-   <img src="https://api.codiga.io/public/badge/user/github/Abishek1027?style=light" alt="codiga badge" />
-</a>
