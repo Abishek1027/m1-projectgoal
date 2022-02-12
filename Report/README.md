@@ -83,3 +83,15 @@ __________________________________________________________
 | LLR2|User can able register their account|Implemented|
 | LLR3|User can able to lodin with phone number|Implemented|
 __________________________________________________________
+﻿# HIGH LEVEL DESIGN
+
+## Use Case Diagram
+![enter image description here](https://www.linkpicture.com/q/Untitled-Workspace.png)
+
+
+# LOW LEVEL DIAGRAM
+
+##  Activity Diagram
+
+![enter image description here](https://www.linkpicture.com/q/Untitled-Workspace-4.png)
+
