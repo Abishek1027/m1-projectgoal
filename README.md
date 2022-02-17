@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac23d62eeda744d996f6f12937c21d39)](https://app.codacy.com/gh/Abishek1027/m1_InternetBanking_utility?utm_source=github.com&utm_medium=referral&utm_content=Abishek1027/m1_InternetBanking_utility&utm_campaign=Badge_Grade_Settings)
 [![CI](https://github.com/Abishek1027/m1-projectgoal-utility/actions/workflows/main.yml/badge.svg)](https://github.com/Abishek1027/m1-projectgoal-utility/actions/workflows/main.yml)
 ___________________________________
 <a href="https://app.codiga.io/public/user/github/Abishek1027">
