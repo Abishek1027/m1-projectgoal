@@ -6,7 +6,7 @@ int main()
 int option;
 printf("\nSelect the Choice");
 printf("\n\n1.Account Registration");
-printf("\n2.Account Login");
+printf("\n2.Account Login \n\n----NOTE: PLEASE RUN THE CODE AGAIN AFTER ACCOUNT REGISTRATION AND CHOOSE LOGIN-----");
 
 printf("\n\nPlease Provid your choice:\t");
 scanf("%d",&option);
