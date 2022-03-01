@@ -1,5 +1,5 @@
- float usd(int x, int x1)
+ float usd(int n, int n1)
     {
 
-        return (float)x / x1;
+        return (float)n / n1;
     }
