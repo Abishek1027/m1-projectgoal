@@ -14,6 +14,6 @@
 #include "assert.h"
 #include "stdio.h"
 
-float pound(int x2, int x3);
+float pound(int y2, int y3);
 
 #endif
