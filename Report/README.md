@@ -7,6 +7,7 @@
 - Withdraw Cash
 - Show Reward Points
 - Change Passcode
+- Foreign Exchange
 
 
 _____________________
