@@ -68,7 +68,8 @@ printf("\nEnter 2 for Deposit Cash");
 printf("\nEnter 3 for Withdraw Cash");
 printf("\nEnter 4 for Show My Reward Points");
 printf("\nEnter 5 for Transfer Money");
-printf("\nEnter 6 for Change Password\n\n");
+printf("\nEnter 6 for Change Password");
+printf("\nEnter 7 for Foreign Exchange\n\n");
 scanf("%d",&select);
 switch(select){
 case 1:
@@ -157,7 +158,7 @@ printf("\n Welcome to the foreign exchange convertor section \n.");
     scanf("%f",&y);  
     z=y/73;  
     e=y/101;
-    printf("\n The converted rate is $ %f",z); 
+    printf("\n The converted rate in $ %f",z); 
     printf("\n The converted rate in Pound is %f",e);
     break;
 default:
