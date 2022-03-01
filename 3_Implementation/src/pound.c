@@ -1,5 +1,5 @@
- float pound(int x2, int x3)
+ float pound(int y2, int y3)
     {
 
-        return (float)x2 / x3;
+        return (float)y2 / y3;
     }
