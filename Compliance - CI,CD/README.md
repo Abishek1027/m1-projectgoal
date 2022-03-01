@@ -1,6 +1,6 @@
 LINUX WORKFLOW BADGE -   [![Build-Linux](https://github.com/Abishek1027/m1_InternetBanking_utility/actions/workflows/Linux-build.yml/badge.svg)](https://github.com/Abishek1027/m1_InternetBanking_utility/actions/workflows/Linux-build.yml)
 
-WINDOWS WORKFLOW BADGE
+WINDOWS WORKFLOW BADGE-   [![CI](https://github.com/Abishek1027/m1-projectgoal-utility/actions/workflows/main.yml/badge.svg)](https://github.com/Abishek1027/m1-projectgoal-utility/actions/workflows/main.yml)
 
 |CI|CODACY BADGE|STATIC CODE ANALYSIS|VALGRIND|GIT INSPECTOR|UNIT TEST|BUILD-LINUX|
 |--|--|--|--|--|--|--|
