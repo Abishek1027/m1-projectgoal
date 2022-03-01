@@ -1,5 +1,5 @@
-LINUX WORKFLOW BADGE
- [![Build-Linux](https://github.com/Abishek1027/m1_InternetBanking_utility/actions/workflows/Linux-build.yml/badge.svg)](https://github.com/Abishek1027/m1_InternetBanking_utility/actions/workflows/Linux-build.yml)|
+LINUX WORKFLOW BADGE -   [![Build-Linux](https://github.com/Abishek1027/m1_InternetBanking_utility/actions/workflows/Linux-build.yml/badge.svg)](https://github.com/Abishek1027/m1_InternetBanking_utility/actions/workflows/Linux-build.yml)
+
 WINDOWS WORKFLOW BADGE
 
 |CI|CODACY BADGE|STATIC CODE ANALYSIS|VALGRIND|GIT INSPECTOR|UNIT TEST|BUILD-LINUX|
