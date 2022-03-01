@@ -44,7 +44,7 @@ strcpy(dataname,cus.phonenumber);
 fp=fopen(strcat(dataname,".info"),"w");
 fwrite(&cus,sizeof(cus),1,fp);
 if(fwrite != 0){
-printf("Accounr Registration Successful");
+printf("Accounr Registration Successful \n--------PLEASE RUN THE CODE AGAIN TO LOGIN----------- ");
 }
 }
 void existing_user(){
