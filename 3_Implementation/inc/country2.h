@@ -1,5 +1,5 @@
 /**
- * @file usd.h
+ * @file country2.h
  * @author Abishek G
  * @brief 
  * @version 0.1
@@ -8,8 +8,8 @@
  * @copyright Copyright (c) 2022
  * 
  */
-#ifndef __USD_H
-#define __USD_H
+#ifndef __COUNTRY2_H
+#define __COUNTRY2_H
 
 #include "assert.h"
 #include "stdio.h"
