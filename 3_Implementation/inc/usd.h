@@ -14,6 +14,6 @@
 #include "assert.h"
 #include "stdio.h"
 
-float usd(int x, int x1);
+float usd(int n, int n1);
 
 #endif
