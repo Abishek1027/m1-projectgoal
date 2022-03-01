@@ -14,6 +14,7 @@ ___________________________________
 - Deposit Cash
 - Withdraw Cash
 - Show Reward Points
+- Foreign Exchange
 - Change Passcode
 
 ## FOLDER CONTENTS:
