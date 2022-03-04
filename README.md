@@ -45,7 +45,8 @@ PS NO. |  NAME  |    FEATURES    |
 3. [github workflow](https://docs.github.com/en/actions/learn-github-action)
 # REFERECES
 
-## THE CODE OF THIS PROJECT IS LEARNT AND DEVELOPED FROM [code with c website](https://www.codewithc.com/mini-project-in-c-bank-management-system/#google_vignette)
-## REFFERED FROM ADVLEARNINGS WEBSITE 
-[ADV learnings](https://adv-learning.web.app/videos)
+## THE CODE OF THIS PROJECT IS LEARNT AND DEVELOPED FROM
+- [code with c website](https://www.codewithc.com/mini-project-in-c-bank-management-system/#google_vignette)
+- [ADV learnings](https://adv-learning.web.app/videos)
+- [reference link](https://github.com/ankitakondagoli/stepin_Bank-Management.git)
 ____________________
