@@ -47,21 +47,9 @@ Functional Requirement
 
 
 
-Functional Requirement 1 init
------------------------------
+Functional Requirement 
+------------------------
 
-
-Functional Requirement 2 master write
--------------------------------------
-
-
-Functional Requirement 3 master read
-------------------------------------
-
-
-
-Functional Requirement 4 de-init
------------------------------
 
 
 
