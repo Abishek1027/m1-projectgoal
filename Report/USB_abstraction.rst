@@ -42,13 +42,14 @@ Requirement of this module
 
 
 Functional Requirement 1 init :
-==================================
 
-The abstraction layer provides an init function, The key functionalities of init functions are
-# device binding - get a device pointer (here, we are getting USB device pointer)
-# Register a device - registering USB device with appropriate report descriptor (Report descriptor tells about exact functionalities of device) 
-# Set protocol code - USB HID Protocol code.
-# Init and Enable - Initialize and Enabling it for Working.
+
+The abstraction layer provides an init function, The key functionalities of init functions are:
+
+- Device binding - get a device pointer (here, we are getting USB device pointer)
+- Register a device - registering USB device with appropriate report descriptor (Report descriptor tells about exact functionalities of device) 
+- Set protocol code - USB HID Protocol code.
+- Init and Enable - Initialize and Enabling it for Working.
 
 
 
