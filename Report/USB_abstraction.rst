@@ -57,6 +57,7 @@ The abstraction layer provides an init function, The key functionalities of init
 
 Functional Requirement 2 read:
 -----------------------------
+ .. uml:: uml_diagramms/usb_abstraction_read.puml
 The abstraction layer provides an read function, The key functionalities are :
 
 - The OutEndpoint Callback is triggered whenever data is available on device EndpointBuffer
@@ -67,6 +68,7 @@ The abstraction layer provides an read function, The key functionalities are :
 
 Functional Requirement 2 write:
 -------------------------------
+ .. uml:: uml_diagramms/usb_abstraction_write.puml
 The abstraction layer provides Write function, The key functionalities are :
 
 - Write function will be called from application module
