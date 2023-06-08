@@ -32,7 +32,7 @@ The USB data packets has to be translated to request or data chunk that can be u
 
 Requirement 3
 --------------------
-The USB packet processed from ``Diagnosis and Update Unit`` -API to be send as a response to the ``endor-os-abstraction``.
+The USB packet processed from ``Diagnosis and Update Unit``-API, to be send as a response to the ``endor-os-abstraction``.
 
 Overview and concept
 =============================
