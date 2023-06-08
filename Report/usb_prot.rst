@@ -37,7 +37,7 @@ The USB packet processed from ``Diagnosis and Update Unit``-API, to be send as a
 Overview and concept
 =============================
 The ``USB Protocol`` is run by the ``usb_prot_task`` with uses API functions of ``endor_diag_prot``-module.
-The task is a thread that is initialized and startet by the device manager and running with a delay of n. When in the task
+The task is a thread that is initialized and started by the device manager and running with a delay of n. When in the task
 a new data is received, it will be parsed und translated. After a valid command is found, it will be forwarded to the 
 ``Diagnosis and Update Unit``. A response will be sent b to the ``endor-os-abstraction``.
 
