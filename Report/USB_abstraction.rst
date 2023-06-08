@@ -74,7 +74,7 @@ The abstraction layer provides Write function, The key functionalities are :
 
 
 API description
------------------
+************************
 
 osal_usb_hid_return_t osal_usb_hid_init(void);
 
@@ -85,8 +85,7 @@ osal_usb_hid_return_t osal_usb_hid_read(uint8_t *p_usb_data_read_buffer, uint16_
 
 
 API description
-************************
-
+==================================
 
 .. doxygengroup:: USB_HID_OS_ABSTRACTION
    :project: doxy_api
