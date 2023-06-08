@@ -58,8 +58,8 @@ Functional Requirement 2 read:
  .. uml:: uml_diagramms/usb_abstraction_read.puml
 The abstraction layer provides an read function, The key functionalities are :
 
-- The OutEndpoint Callback is triggered whenever data is available on device EndpointBuffer
-- Data is read by zephyr-read API. with data payload of 64 Bytes
+- The OutEndpoint Callback is triggered whenever data is available on device Endpoint Buffer
+- Data shall read by zephyr-read API. with data payload of 64 Bytes
 - In our use case, data to be read with length of 320 Bytes per transfer.
 - Timeout - timeout option is available when data is failed to receive within specified time.
 - On success the data will be filled on read buffer.
