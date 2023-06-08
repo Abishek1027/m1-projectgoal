@@ -72,8 +72,9 @@ The abstraction layer provides Write function, The key functionalities are :
 - Write function will be called from application module
 - write operation performed by zephyr-write API, with fixed data payload of 64 bytes.
 
+
 API description
------------------
+************************
 
 osal_usb_hid_return_t osal_usb_hid_init(void);
 
@@ -81,8 +82,9 @@ osal_usb_hid_return_t osal_usb_hid_write(uint8_t *p_usb_data_write_buffer, uint1
 
 osal_usb_hid_return_t osal_usb_hid_read(uint8_t *p_usb_data_read_buffer, uint16_t usb_data_read_length, uint16_t usb_timeout);
 
+
 API description
-************************
+-----------------
 
 .. doxygengroup:: OSAL_I2C_SLAVE
    :project: doxy_api
