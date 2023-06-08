@@ -26,7 +26,6 @@ Requirement 1
 --------------------
 The function shall receive USB data packets with fixed data length of n bytes.
 
-
 Requirement 2
 --------------------
 The USB data packets has to be translated to request or data chunk that can be used by ``Diagnosis and Update Unit``-API.
@@ -42,7 +41,7 @@ The task is a thread that is initialized and startet by the device manager and r
 a new data is received, it will be parsed und translated. After a valid command is found, it will be forwarded to the 
 ``Diagnosis and Update Unit``. A response will be sent b to the ``endor-os-abstraction``.
 
-.. uml:: uml_diagramms/usb_abstraction_read.puml
+.. uml:: uml_diagramms/usb_proto.puml
 
 API Reference
 ******************
