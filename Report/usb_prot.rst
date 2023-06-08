@@ -1,12 +1,12 @@
 .. _Endor USB Diagnosis Protocol:
 
 Endor USB Diagnosis Protocol
-########################################
+#################################
 
 .. contents:: Table of Contents
 
 Document History
-********************
+******************
 
 ============= ================= ======== ===========================================
 Date          Author            Revision Changes
@@ -20,7 +20,7 @@ The functionality of the ``USB Protocol`` is to translate and forward USB data p
 from the ``endor-os-abstraction`` to the ``Diagnosis and Update Unit`` and backwards.
 
 Requirements
-============================================
+=================
 
 Requirement 1
 --------------------
@@ -32,7 +32,7 @@ The USB data packets has to be translated to request or data chunk that can be u
 
 Requirement 3
 --------------------
-The USB packet processed from ``Diagnosis and Update Unit`` -API to be send as a response to the ``endor-os-abstraction``
+The USB packet processed from ``Diagnosis and Update Unit`` -API to be send as a response to the ``endor-os-abstraction``.
 
 Overview and concept
 =============================
