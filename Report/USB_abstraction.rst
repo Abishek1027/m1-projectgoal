@@ -9,7 +9,7 @@ Document History
 ============= ================= ======== ===========================================
 Date          Author            Revision Changes
 ------------- ----------------- -------- -------------------------------------------
-05.06.2023    Aravindh.R        V0.1     Creaton of documentation
+05.06.2023    Aravindh.R        V0.1     Creation of documentation
 
 ============= ================= ======== ===========================================
 
@@ -18,7 +18,23 @@ General
 
 Purpose of this Module
 ==========================
-This is an abstraction layer between an application module (this is an example of USB Bootloader protocol, but it should be useable in a generic context) and the hardware dependant layer (in this case the zephyr USB library). It provides generic USB functions and uses read/write functions as an interface to the application module.
+This is an ``USB abstraction`` layer between an application module (this is an example of USB Bootloader protocol, but it should be useable in a generic context) and the hardware dependant layer (in this case the zephyr USB library). It provides generic USB functions and uses read/write functions as an interface to the application module.
+
+Module used for the following Applications
+===========================================
+
+
+
+Dependencies
+=============
+
+Modules dependent on this Module
+---------------------------------
+``USB Protocol`` module is dependent on ``USB abstraction`` module
+
+Modules this Module depends on
+---------------------------------
+Not dependant on any modules but dependent on the Zephyr OS including Hardware abstraction and USB driver functionality
 
 Requirement of this module
 ********************************************
@@ -48,7 +64,7 @@ The abstraction layer provides an read function, The key functionalities are :
 - Timeout - timeout option is available when data is failed to receive within specified time.
 - On success the data will be filled on read buffer.
 
-Functional Requirement 2 write:
+Functional Requirement 3 write:
 -------------------------------
  .. uml:: uml_diagramms/usb_abstraction_write.puml
 The abstraction layer provides Write function, The key functionalities are :
@@ -78,11 +94,13 @@ Functions
 ------------------------------
 
 `int_in_ready_cb()`
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
+
 This function is called when IN-endpoint buffer is cleared, write to the host is sucess when the buffer is empty.
 
 `int_out_ready_cb()`
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
+
 This function is called when OUT-endpoint buffer is full, data is ready to read when the buffer is full.
 
 
