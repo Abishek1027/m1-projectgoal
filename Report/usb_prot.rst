@@ -16,7 +16,7 @@ Date          Author            Revision Changes
 
 Functional Scope
 ===================
-The functionality of the ``Endor USB Diagnosis Protocol`` is to translate and forward can iso-tp packets 
+The functionality of the ``USB Protocol`` is to translate and forward USB data packets 
 from the ``endor-os-abstraction`` to the ``Diagnosis and Update Unit`` and backwards.
 
 Requirements
@@ -24,21 +24,25 @@ Requirements
 
 Requirement 1
 --------------------
+The function shall receive USB data packets with fixed data length of n bytes.
 
 
 Requirement 2
 --------------------
-
+The USB data packets has to be translated to request or data chunk that can be used by ``Diagnosis and Update Unit``-API.
 
 Requirement 3
 --------------------
-
+The USB packet processed from ``Diagnosis and Update Unit`` -API to be send as a response to the ``endor-os-abstraction``
 
 Overview and concept
 =============================
+The ``USB Protocol`` is run by the ``usb_prot_task`` with uses API functions of ``endor_diag_prot``-module.
+The task is a thread that is initialized and startet by the device manager and running with a delay of n. When in the task
+a new data is received, it will be parsed und translated. After a valid command is found, it will be forwarded to the 
+``Diagnosis and Update Unit``. A response will be sent b to the ``endor-os-abstraction``.
 
-
-
+.. uml:: uml_diagramms/usb_abstraction_read.puml
 
 API Reference
 ******************
@@ -49,16 +53,12 @@ Endor USB Diagnosis Protocol
    :project: doxy_api
    :path: ../doxygen/build/
 
-Endor Can Diagnosis Protocol Task
+Endor USB Diagnosis Protocol Task
 ==================================
 
 .. doxygengroup:: USB_PROT_TASK
    :project: doxy_api
    :path: ../doxygen/build/
-
-.. |br| raw:: html
-
-   <br />
 
 Bibliography
 ******************************************
