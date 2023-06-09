@@ -1,6 +1,6 @@
-.. _Endor USB Diagnosis Protocol:
+.. _Endor USB Protocol:
 
-Endor USB Diagnosis Protocol
+Endor USB Protocol
 #################################
 
 .. contents:: Table of Contents
@@ -45,14 +45,14 @@ a new data is received in the task, it will be parsed und translated. After a va
 
 API Reference
 ******************
-Endor USB Diagnosis Protocol
+Endor USB Protocol
 =============================
 
 .. doxygengroup:: USB_PROT
    :project: doxy_api
    :path: ../doxygen/build/
 
-Endor USB Diagnosis Protocol Task
+Endor USB Protocol Task
 ==================================
 
 .. doxygengroup:: USB_PROT_TASK
