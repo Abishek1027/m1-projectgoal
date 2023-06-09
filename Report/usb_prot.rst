@@ -3,7 +3,7 @@
 Endor USB Protocol
 #################################
 
-.. contents:: Table of Contents
+.. contents:: Table of Contents 
 
 Document History
 ******************
