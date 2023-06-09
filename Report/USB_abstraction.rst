@@ -39,7 +39,6 @@ Not dependant on any modules but dependent on the Zephyr OS including Hardware a
 Requirement of this module
 ********************************************
 
-
 Functional Requirement :
 ==================================
 
