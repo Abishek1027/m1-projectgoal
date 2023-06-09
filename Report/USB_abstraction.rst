@@ -34,7 +34,7 @@ Modules dependent on this Module
 
 Modules this Module depends on
 ---------------------------------
-Not dependant on any modules but dependent on the Zephyr OS including Hardware abstraction and USB driver functionality
+Not dependent on any modules but dependent on the Zephyr OS including Hardware abstraction and USB driver functionality
 
 Requirement of this module
 ********************************************
@@ -54,7 +54,9 @@ The abstraction layer provides an init function, The key functionalities of init
 
 Functional Requirement 2 read:
 -----------------------------
- .. uml:: uml_diagramms/usb_abstraction_read.puml
+
+ .. uml:: uml_diagrams/usb_abstraction_read.puml
+ 
 The abstraction layer provides an read function, The key functionalities are :
 
 - The OutEndpoint Callback is triggered whenever data is available on device Endpoint Buffer
@@ -65,7 +67,9 @@ The abstraction layer provides an read function, The key functionalities are :
 
 Functional Requirement 3 write:
 -------------------------------
- .. uml:: uml_diagramms/usb_abstraction_write.puml
+
+ .. uml:: uml_diagrams/usb_abstraction_write.puml
+ 
 The abstraction layer provides Write function, The key functionalities are :
 
 - Write function will be called from application module
