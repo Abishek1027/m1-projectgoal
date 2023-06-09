@@ -47,7 +47,7 @@ The abstraction layer provides an init function, The key functionalities of init
 - Device binding - get a device pointer (here, we are getting USB device pointer)
 - Register a device - registering USB device with appropriate report descriptor (Report descriptor tells about exact functionalities of device) 
 - Set protocol code - USB HID Protocol code.
-- Init and Enable - Initialize and Enabling it for Working.
+- Init and Enable - Initialize and enabling it for Working.
 
 
 Functional Requirement 2 read:
@@ -58,7 +58,7 @@ Functional Requirement 2 read:
 The abstraction layer provides an read function, The key functionalities are:
 
 - The OutEndpoint Callback is triggered whenever data is available on device Endpoint Buffer
-- Data shall read by zephyr-read API. with data payload of 64 Bytes
+- Data shall read by zephyr-read API. With data payload of 64 Bytes
 - In our use case, data to be read with length of 320 Bytes per transfer.
 - Timeout - timeout option is available when data is failed to receive within specified time.
 - On success the data will be filled on read buffer.
@@ -71,7 +71,7 @@ Functional Requirement 3 write:
 The abstraction layer provides Write function, The key functionalities are:
 
 - Write function will be called from application module
-- write operation performed by zephyr-write API, with fixed data payload of 64 bytes.
+- Write operation performed by zephyr-write API, with fixed data payload of 64 bytes.
 
 
 API description
