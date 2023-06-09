@@ -39,7 +39,7 @@ Overview and concept
 The ``USB Protocol`` is run by the ``usb_prot_task`` with uses API functions of ``endor_diag_prot``-module.
 The task is a thread that is initialized and started by the device manager and running with a delay of n. When 
 a new data is received in the task, it will be parsed und translated. After a valid command is found, it will be forwarded to the 
-``Diagnosis and Update Unit``. A response will be sent b to the ``endor-os-abstraction``.
+``Diagnosis and Update Unit``. A response will be sent to the ``endor-os-abstraction``.
 
 .. uml:: uml_diagramms/usb_proto.puml
 
