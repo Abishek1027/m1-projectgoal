@@ -23,8 +23,6 @@ This is an ``USB abstraction`` layer between an application module (this is an e
 Module used for the following Applications
 ===========================================
 
-
-
 Dependencies
 =============
 
@@ -39,7 +37,7 @@ Not dependent on any modules but dependent on the Zephyr OS including Hardware a
 Requirement of this module
 ********************************************
 
-Functional Requirement :
+Functional Requirements :
 ==================================
 
 Functional Requirement 1 init:
