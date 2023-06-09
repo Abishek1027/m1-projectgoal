@@ -37,7 +37,7 @@ Not dependent on any modules but dependent on the Zephyr OS including Hardware a
 Requirement of this module
 ********************************************
 
-Functional Requirements :
+Functional Requirements:
 ==================================
 
 Functional Requirement 1 init:
@@ -55,7 +55,7 @@ Functional Requirement 2 read:
 
  .. uml:: uml_diagrams/usb_abstraction_read.puml
  
-The abstraction layer provides an read function, The key functionalities are :
+The abstraction layer provides an read function, The key functionalities are:
 
 - The OutEndpoint Callback is triggered whenever data is available on device Endpoint Buffer
 - Data shall read by zephyr-read API. with data payload of 64 Bytes
@@ -68,7 +68,7 @@ Functional Requirement 3 write:
 
  .. uml:: uml_diagrams/usb_abstraction_write.puml
  
-The abstraction layer provides Write function, The key functionalities are :
+The abstraction layer provides Write function, The key functionalities are:
 
 - Write function will be called from application module
 - write operation performed by zephyr-write API, with fixed data payload of 64 bytes.
